@@ -1,0 +1,8 @@
+a={'A': 80, 'B': 80, 'C': 95, 'D': 10, 'E': 20}
+b=[]
+c=dict()
+for i,j in a.items():
+    if j not in b:
+        b.append(j)
+        c[i]=j
+print(c) 
